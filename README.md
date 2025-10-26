@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Para alguém especial 💖</title>
+  <title>Para alguém fofo e engraçado</title>
   <style>
     body {
       margin: 0;
@@ -60,8 +60,8 @@
 </head>
 <body>
   <div class="card">
-    <h1>Oi, pessoa linda! 💕</h1>
-    <p>Criei esse cantinho só pra dizer que você é muito especial pra mim.<br>Seu sorriso ilumina meus dias e seu jeitinho me encanta cada vez mais.</p>
+    <h1>Oiii, pessoa linda!</h1>
+    <p>Montei esse cantinho pra te lembrar o quanto você significa pra mim.<br>Seu sorriso deixa tudo mais leve, e o seu jeito me encanta de um jeito difícil de explicar.</p>
     <button class="heart-button" onclick="alert('Você ganhou um pedacinho do meu coração 💘')">Clique aqui 💖</button>
   </div>
 </body>
