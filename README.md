@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Para alguém especial 💖</title>
+  <title>Pra você 💙</title>
   <style>
     * {
       margin: 0;
@@ -101,7 +101,7 @@
     }
     
     .card h1 {
-      background: linear-gradient(135deg, #e91e63, #9c27b0);
+      background: linear-gradient(135deg, #667eea, #764ba2);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -117,7 +117,7 @@
     }
     
     .heart-button {
-      background: linear-gradient(135deg, #e91e63, #9c27b0);
+      background: linear-gradient(135deg, #667eea, #764ba2);
       color: white;
       border: none;
       padding: 15px 40px;
@@ -126,14 +126,14 @@
       border-radius: 50px;
       cursor: pointer;
       transition: all 0.3s ease;
-      box-shadow: 0 4px 15px rgba(233, 30, 99, 0.4);
+      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
       position: relative;
       overflow: hidden;
     }
     
     .heart-button:hover {
       transform: translateY(-3px);
-      box-shadow: 0 6px 25px rgba(233, 30, 99, 0.6);
+      box-shadow: 0 6px 25px rgba(102, 126, 234, 0.6);
     }
     
     .heart-button:active {
@@ -172,8 +172,8 @@
     
     .option-btn {
       background: white;
-      color: #e91e63;
-      border: 2px solid #e91e63;
+      color: #667eea;
+      border: 2px solid #667eea;
       padding: 12px 25px;
       font-size: 16px;
       border-radius: 25px;
@@ -182,17 +182,17 @@
     }
     
     .option-btn:hover {
-      background: #e91e63;
+      background: #667eea;
       color: white;
       transform: scale(1.05);
     }
     
     .message-reveal {
-      background: linear-gradient(135deg, #ffeaa7, #fdcb6e);
+      background: linear-gradient(135deg, #e8f4f8, #b8e6f5);
       padding: 20px;
       border-radius: 15px;
       margin-top: 20px;
-      font-weight: 600;
+      font-weight: 500;
       color: #2d3436;
       animation: pulse 2s infinite;
     }
@@ -226,7 +226,7 @@
     }
     
     .final-message h2 {
-      color: #e91e63;
+      color: #667eea;
       margin-bottom: 15px;
       font-size: 28px;
     }
@@ -234,7 +234,7 @@
     .love-counter {
       font-size: 48px;
       font-weight: bold;
-      background: linear-gradient(135deg, #e91e63, #9c27b0);
+      background: linear-gradient(135deg, #667eea, #764ba2);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -244,8 +244,8 @@
     
     @keyframes heartbeat {
       0%, 100% { transform: scale(1); }
-      10%, 30% { transform: scale(1.1); }
-      20%, 40% { transform: scale(0.9); }
+      10%, 30% { transform: scale(1.05); }
+      20%, 40% { transform: scale(0.95); }
     }
     
     @media (max-width: 600px) {
@@ -269,41 +269,41 @@
   <div class="container">
     <div class="card">
       <div class="step active" id="step1">
-        <h1>Oi, pessoa linda! 💕</h1>
-        <p>Preparei uma surpresa especial pra você. Está pronta(o) para descobrir?</p>
+        <h1>E aí! ✨</h1>
+        <p>Fiz algo aqui pra você. Nada demais, mas acho que você vai gostar.</p>
         <button class="heart-button" onclick="nextStep(2)">
-          <span>Sim, quero ver! ✨</span>
+          <span>Beleza, vamos ver 👀</span>
         </button>
       </div>
       
       <div class="step" id="step2">
-        <h1>Você sabia? 🌟</h1>
-        <p>Que desde que você apareceu na minha vida, meus dias ficaram muito mais coloridos e especiais?</p>
+        <h1>Então... 🌙</h1>
+        <p>Só queria dizer que ter você por perto deixa as coisas mais legais. Simples assim.</p>
         <button class="heart-button" onclick="nextStep(3)">
-          <span>Continuar 💖</span>
+          <span>Continuar 💙</span>
         </button>
       </div>
       
       <div class="step" id="step3">
-        <h1>Uma pergunta... 🤔</h1>
-        <p>O que você mais gosta em mim?</p>
+        <h1>Curiosidade 🤔</h1>
+        <p>O que você curte mais em mim?</p>
         <div class="options">
-          <button class="option-btn" onclick="showMessage('Seu sorriso')">Meu sorriso 😊</button>
-          <button class="option-btn" onclick="showMessage('Seu jeito de ser')">Meu jeito 🥰</button>
-          <button class="option-btn" onclick="showMessage('Seu humor')">Meu humor 😄</button>
-          <button class="option-btn" onclick="showMessage('Tudo!')">Tudo! 💕</button>
+          <button class="option-btn" onclick="showMessage('Seu sorriso')">Teu jeito descontraído 😊</button>
+          <button class="option-btn" onclick="showMessage('Seu jeito de ser')">Como você é 🙂</button>
+          <button class="option-btn" onclick="showMessage('Seu humor')">Teu humor 😄</button>
+          <button class="option-btn" onclick="showMessage('Tudo!')">Tudo junto 💙</button>
         </div>
         <div id="messageBox"></div>
       </div>
       
       <div class="step" id="step4">
         <div class="final-message">
-          <h2>E agora a melhor parte... 🎉</h2>
-          <p>Você ilumina minha vida todos os dias!</p>
+          <h2>E pra finalizar... 🎯</h2>
+          <p>Só pra você saber que eu te considero demais.</p>
           <div class="love-counter" id="loveCounter">0%</div>
-          <p style="font-size: 16px; color: #666;">Amor que sinto por você</p>
+          <p style="font-size: 16px; color: #666;">Quanto você é legal</p>
           <button class="heart-button" onclick="explodeHearts()" style="margin-top: 20px;">
-            <span>Clique para uma surpresa final! 💝</span>
+            <span>Última coisa aqui 🎁</span>
           </button>
         </div>
       </div>
@@ -316,7 +316,7 @@
     function createFloatingHeart() {
       const heart = document.createElement('div');
       heart.className = 'floating-heart';
-      heart.textContent = ['💕', '💖', '💗', '💘', '💝'][Math.floor(Math.random() * 5)];
+      heart.textContent = ['✨', '💙', '🌙', '⭐', '💫'][Math.floor(Math.random() * 5)];
       heart.style.left = Math.random() * 100 + '%';
       heart.style.animationDelay = Math.random() * 2 + 's';
       heart.style.animationDuration = (Math.random() * 2 + 3) + 's';
@@ -325,7 +325,7 @@
       setTimeout(() => heart.remove(), 5000);
     }
     
-    setInterval(createFloatingHeart, 300);
+    setInterval(createFloatingHeart, 400);
     
     function nextStep(step) {
       document.getElementById(`step${currentStep}`).classList.remove('active');
@@ -339,10 +339,10 @@
     
     function showMessage(choice) {
       const messages = {
-        'Seu sorriso': 'Ah, obrigada! Mas saiba que é o SEU sorriso que ilumina os meus dias! 😊',
-        'Seu jeito de ser': 'Que bom que você gosta! Mas é você quem me faz querer ser melhor a cada dia! 🥰',
-        'Seu humor': 'Fico feliz em te fazer rir! Sua risada é minha música favorita! 😄',
-        'Tudo!': 'Awwn! Você é perfeita(o) demais! Também amo TUDO em você! 💕'
+        'Seu sorriso': 'Legal! Mas é você que torna tudo mais leve por aqui. 😊',
+        'Seu jeito de ser': 'Valeu! Mas você também tem uma vibe muito boa, sabia? 🙂',
+        'Seu humor': 'Que bom! Rir com você é sempre top. 😄',
+        'Tudo!': 'Nossa, obrigado! Você também é muito legal, de verdade. 💙'
       };
       
       const messageBox = document.getElementById('messageBox');
@@ -361,15 +361,15 @@
         counter.textContent = count + '%';
         if (count >= 100) {
           clearInterval(interval);
-          counter.textContent = '∞ 💖';
+          counter.textContent = '100% 💙';
         }
       }, 50);
     }
     
     function explodeHearts() {
-      const emojis = ['💖', '💕', '💗', '💘', '💝', '🌟', '✨', '⭐', '🎉', '🎊'];
+      const emojis = ['💙', '✨', '🌙', '⭐', '💫', '🎯', '🎁', '🌟'];
       
-      for (let i = 0; i < 50; i++) {
+      for (let i = 0; i < 30; i++) {
         setTimeout(() => {
           const emoji = document.createElement('div');
           emoji.className = 'emoji-rain';
@@ -384,7 +384,7 @@
       }
       
       setTimeout(() => {
-        alert('Você é incrível e muito especial pra mim! Obrigada por existir! 💖✨');
+        alert('É isso! Você é gente boa demais. Valeu por tudo! 💙✨');
       }, 2000);
     }
   </script>
