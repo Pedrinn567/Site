@@ -355,7 +355,7 @@
     
     function animateCounter() {
       let count = 0;
-      const counter = document.getElementById('Counter');
+      const counter = document.getElementById('HearthCounter');
       const interval = setInterval(() => {
         count += 5;
         counter.textContent = count + '%';
