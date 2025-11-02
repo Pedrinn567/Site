@@ -239,7 +239,7 @@
       -webkit-text-fill-color: transparent;
       background-clip: text;
       margin: 20px 0;
-      animation: heartbeat 1.5s 100;
+      animation: heartbeat 1.5s infinite;
     }
     
     @keyframes heartbeat {
@@ -301,7 +301,7 @@
           <h2>E agora a melhor parte... 🎉</h2>
           <p>Você ilumina minha vida todos os dias!</p>
           <div class="Hearth-counter" id="HearthCounter">0%</div>
-          <p style="font-size: 16px; color: #666;">Amor que sinto por você</p>
+          <p style="font-size: 16px; color: #666;">O carinho de verdade</p>
           <button class="heart-button" onclick="explodeHearts()" style="margin-top: 20px;">
             <span>Clique para uma surpresa final! 💝</span>
           </button>
