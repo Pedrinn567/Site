@@ -18,18 +18,21 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 20px;
+            padding: 40px 20px;
             overflow-x: hidden;
+            overflow-y: auto;
         }
 
         .container {
             max-width: 600px;
+            width: 100%;
             background: rgba(255, 255, 255, 0.95);
             border-radius: 20px;
             padding: 50px 40px;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
             position: relative;
             animation: fadeIn 1s ease-out;
+            margin: 20px auto;
         }
 
         @keyframes fadeIn {
@@ -121,7 +124,6 @@
     <div class="flowers flower4">🌷</div>
 
     <div class="container">
-        <div class="heart">💕</div>
         <h1>Para Você</h1>
         
         <div class="message">
